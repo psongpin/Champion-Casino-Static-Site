@@ -10,7 +10,8 @@ $(document).ready(function(){
       fade: true,
       infinite: true,
       autoplay: true,
-      cssEase: 'linear'
+      cssEase: 'linear',
+      dots: true
     });
   $('.hms-prev').click(function(){ $('.homepage-main-slider-parent').slick('slickPrev'); });
   $('.hms-next').click(function(){ $('.homepage-main-slider-parent').slick('slickNext'); });

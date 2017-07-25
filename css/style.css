@@ -342,6 +342,14 @@ header {
 	height: 400px;
 	position: relative;
 	display: none;
+	margin-bottom: 0;
+}
+.homepage-main-slider  .slick-dots {
+    bottom: 25px;
+}
+.homepage-main-slider .slick-dots li button:before {
+	font-size: 12px;
+	color: #fff;
 }
 .homepage-main-slider .homepage-main-slider-slide {
 	height: 400px;
