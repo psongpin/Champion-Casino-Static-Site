@@ -1,0 +1,9 @@
+
+
+Website Colors ==============================================
+
+Navigation: #003B7F
+Active Page, CTA, Payment, Countries/Social: #104b91
+Buttons, Active Page #e7893e
+Lobby Navigation: #21232b, opacity:15%;
+Lobby Navigation: #1f3f7b, opacity:80%

@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="width=device-width, initial-scale=1" name="viewport"><!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>Bootstrap 101 Template</title><!-- Bootstrap -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"><!-- Custom CSS Styles -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+	<link href="/css/style.css" rel="stylesheet"><!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
+    <![endif]-->
+</head>
+<body>
+	<!-- Header -->
+	<header id="header">
+		<!-- Header Top -->
+		<div class="header-top">
+			<div class="container">
+				<!-- Logo -->
+				<div class="header-logo"><img alt="" src="/images/Logo.png"></div><!-- Login Form -->
+				<div class="header-login-form-wrap">
+					<form action="" class="header-login-form clearfix">
+						<div class="input">
+							<input class="header-login-form-email" name="email" placeholder="Email" type="email" value="">
+						</div>
+						<div class="input">
+							<input class="header-login-form-password" placeholder="Password" type="password"> <a class="lost-pasword" href="#">Lost Password?</a>
+						</div><button class="header-login-form-submit" name="button" type="submit">Log In</button> <a class="header-login-form-signup" href="#">Sign Up</a>
+					</form>
+				</div>
+			</div>
+		</div><!-- Header Bottom -->
+		<div class="header-bottom">
+			<div class="container">
+				<!-- Primary Menu -->
+				<button class="btn btn-default mobile-menu-toggle" type="button"><span class="fa fa-bars"></span>Menu</button>
+				<nav class="primary-menu">
+					<ul class="nav navbar-nav">
+						<li class="active">
+							<a href="#">Homepage</a>
+						</li>
+						<li>
+							<a href="#">Casino</a>
+						</li>
+						<li>
+							<a href="#">Tournaments</a>
+						</li>
+						<li>
+							<a href="#">Promotions</a>
+						</li>
+						<li>
+							<a href="#">VIP</a>
+						</li>
+						<li>
+							<a href="#">Getting Started</a>
+						</li>
+					</ul>
+				</nav><!-- Help Nav -->
+				<div class="help-nav">
+					<!-- TODO: Language Dropdown -->
+					<div class="help-link">
+						<a href="#"><span class="help-icon"><img alt="" src="/images/Navigation/Help.png"></span> Help</a>
+					</div>
+				</div><!-- Language Menu -->
+				<div class="lang-drop dropdown">
+					<a aria-expanded="false" class="lang-drop-toggle dropdown-toggle" data-toggle="dropdown" href="#" role="button"><img alt="..." id="imgNavSel" src="/images/Counrty%20and%20Social/UK.png">&nbsp;&nbsp; <span id="lanNavSel">United Kingdom</span> <span class="ion-chevron-down"></span></a>
+					<ul class="lang-menu dropdown-menu" role="menu">
+						<li>
+							<a class="language" href="#" id="navUK"><img alt="" id="imgNavUK" src="/images/Counrty%20and%20Social/UK.png">&nbsp;&nbsp;<span id="lanNavUK">United Kingdom</span></a>
+						</li>
+						<li>
+							<a class="language" href="#" id="navDeu"><img alt="" id="imgNavDeu" src="/images/Counrty%20and%20Social/Germany.png">&nbsp;&nbsp;<span id="lanNavDeu">Deutsch</span></a>
+						</li>
+						<li>
+							<a class="language" href="#" id="navSwed"><img alt="" id="imgNavSwed" src="/images/Counrty%20and%20Social/Swden.png">&nbsp;&nbsp;<span id="lanNavSwed">Swedish</span></a>
+						</li>
+						<li>
+							<a class="language" href="#" id="navNorw"><img alt="" id="imgNavNorw" src="/images/Counrty%20and%20Social/Norway.png">&nbsp;&nbsp;<span id="lanNavNorw">Norwegian</span></a>
+						</li>
+						<li>
+							<a class="language" href="#" id="navFin"><img alt="" id="imgNavFin" src="/images/Counrty%20and%20Social/Finland.png">&nbsp;&nbsp;<span id="lanNavFin">Finnish</span></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+    <div class="mobile-menu-overlay" style="display: none;"></div>
+    <nav class="mobile-menu">
+      <span class="mobile-menu-close">&times;</span>
+      <ul class="nav">
+        <li class="active">
+          <a href="#">Homepage</a>
+        </li>
+        <li>
+          <a href="#">Casino</a>
+        </li>
+        <li>
+          <a href="#">Tournaments</a>
+        </li>
+        <li>
+          <a href="#">Promotions</a>
+        </li>
+        <li>
+          <a href="#">VIP</a>
+        </li>
+        <li>
+          <a href="#">Getting Started</a>
+        </li>
+      </ul>
+    </nav>
+	</header>
+	<div class="mobile-login-links clearfix">
+		<a class="mobile-login-links-sign-up" href="#">Sign Up</a> <a class="mobile-login-links-login" href="#">Login</a>
+	</div><!-- Content Area -->
+	<div class="site-content">
+		<!-- Main Homepage Slider -->
+		<div class="homepage-main-slider">
+			<div class="homepage-main-slider-arrow-container">
+				<button class="hms-prev hms-nav"><span class="ion-chevron-left"></span></button> <button class="hms-next hms-nav"><span class="ion-chevron-right"></span></button>
+			</div>
+			<div class="homepage-main-slider-parent">
+				<div class="homepage-main-slider-slide" style="background-image:url(images/Banner/Banner.jpg);">
+					<div class="contents">
+						<h2>New To Casino</h2>
+						<p>Deposit €100 and Play In Our Casino with €200</p><a class="slider-link" href="#">Sign Up Now</a>
+					</div>
+				</div>
+				<div class="homepage-main-slider-slide" style="background-image:url(images/Banner/Banner.jpg);">
+					<div class="contents">
+						<h2>New To Casino</h2>
+						<p>Deposit €100 and Play In Our Casino with €200</p><a class="slider-link" href="#">Sign Up Now</a>
+					</div>
+				</div>
+				<div class="homepage-main-slider-slide" style="background-image:url(images/Banner/Banner.jpg);">
+					<div class="contents">
+						<h2>New To Casino</h2>
+						<p>Deposit €100 and Play In Our Casino with €200</p><a class="slider-link" href="#">Sign Up Now</a>
+					</div>
+				</div>
+			</div>
+		</div><!-- Lobby Navigation -->
+		<div class="lobby-navigation clearfix text-center">
+			<div class="lobby-navigation-item" style="background-image:url('images/Lobby Navigation/Top-Games.jpg');">
+				<a class="lobby-navigation-item-content" href="#"><img alt="" src="/images/Lobby%20Navigation/Top-Games.png"> <span>Top Games</span></a>
+			</div>
+			<div class="lobby-navigation-item" style="background-image:url('images/Lobby Navigation/Slots.jpg');">
+				<a class="lobby-navigation-item-content" href="#"><img alt="" src="/images/Lobby%20Navigation/Slots.png"> <span>Slots</span></a>
+			</div>
+			<div class="lobby-navigation-item" style="background-image:url('images/Lobby Navigation/Live-Casino.jpg');">
+				<a class="lobby-navigation-item-content" href="#"><img alt="" src="/images/Lobby%20Navigation/Live-Casino.png"> <span>Live Casino</span></a>
+			</div>
+			<div class="lobby-navigation-item" style="background-image:url('images/Lobby Navigation/Jackpots.jpg');">
+				<a class="lobby-navigation-item-content" href="#"><img alt="" src="/images/Lobby%20Navigation/Jackpots.png"> <span>Jackpots</span></a>
+			</div>
+			<div class="lobby-navigation-item" style="background-image:url('images/Lobby Navigation/Roulette.jpg');">
+				<a class="lobby-navigation-item-content" href="#"><img alt="" src="/images/Lobby%20Navigation/Roulette.png"> <span>Roulette</span></a>
+			</div>
+			<div class="lobby-navigation-item" style="background-image:url('images/Lobby Navigation/BlackJack.jpg');">
+				<a class="lobby-navigation-item-content" href="#"><img alt="" src="/images/Lobby%20Navigation/Blackjack.png"> <span>Blackjack</span></a>
+			</div>
+			<div class="lobby-navigation-item" style="background-image:url('images/Lobby Navigation/Other-Games.jpg');">
+				<a class="lobby-navigation-item-content" href="#"><img alt="" src="/images/Lobby%20Navigation/Other-Games.png"> <span>Other Games</span></a>
+			</div>
+			<div class="lobby-navigation-item" style="background-image:url('images/Lobby Navigation/Search.jpg');">
+				<a class="lobby-navigation-item-content" href="#"><img alt="" src="/images/Lobby%20Navigation/Search.png"> <span>Search</span></a>
+			</div>
+		</div><!-- Game List -->
+		<div class="all-game-list">
+			<div class="container">
+				<!-- Popular Games -->
+				<div class="row">
+					<div class="col-xs-10 col-xs-offset-1">
+						<div class="game-list popular-games">
+							<h2>Popular Games</h2>
+							<div class="row">
+								<div class="game-slide-container">
+									<div class="game-slide">
+										<a class="game-slide-content" href="#"><img alt="" src="/images/Games/Phoenix-Sun.jpg">
+										<div class="game-slide-details">
+											<h3>Phoenix Sun</h3><span class="play-now-btn">Play Now</span>
+										</div></a>
+									</div>
+									<div class="game-slide">
+										<a class="game-slide-content" href="#"><img alt="" src="/images/Games/Net-Ent-LIVE.jpg">
+										<div class="game-slide-details">
+											<h3>Net Ent Live</h3><span class="play-now-btn">Play Now</span>
+										</div></a>
+									</div>
+									<div class="game-slide">
+										<a class="game-slide-content" href="#"><img alt="" src="/images/Games/Fairytale-Legends.jpg">
+										<div class="game-slide-details">
+											<h3>FairyTale Legends: Hansel &amp; Gretel</h3><span class="play-now-btn">Play Now</span>
+										</div></a>
+									</div>
+									<div class="game-slide">
+										<a class="game-slide-content" href="#"><img alt="" src="/images/Games/Starburst.jpg">
+										<div class="game-slide-details">
+											<h3>Starburst</h3><span class="play-now-btn">Play Now</span>
+										</div></a>
+									</div>
+									<div class="game-slide">
+										<a class="game-slide-content" href="#"><img alt="" src="/images/Games/Gonzos-Quest.jpg">
+										<div class="game-slide-details">
+											<h3>Gonzos Quest</h3><span class="play-now-btn">Play Now</span>
+										</div></a>
+									</div>
+									<div class="game-slide">
+										<a class="game-slide-content" href="#"><img alt="" src="/images/Games/Power-Plant.jpg">
+										<div class="game-slide-details">
+											<h3>Power Plant</h3><span class="play-now-btn">Play Now</span>
+										</div></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div><!-- New Games -->
+				<div class="row">
+					<div class="col-xs-10 col-xs-offset-1">
+						<div class="game-list new-games">
+							<h2>New Games</h2>
+							<div class="row">
+								<div class="game-slide-container">
+									<div class="game-slide">
+										<a class="game-slide-content" href="#"><img alt="" src="/images/Games/Power-Plant.jpg">
+										<div class="game-slide-details">
+											<h3>Power Plant</h3><span class="play-now-btn">Play Now</span>
+										</div></a>
+									</div>
+									<div class="game-slide">
+										<a class="game-slide-content" href="#"><img alt="" src="/images/Games/Book-of-Dead.jpg">
+										<div class="game-slide-details">
+											<h3>Book of Dead</h3><span class="play-now-btn">Play Now</span>
+										</div></a>
+									</div>
+									<div class="game-slide">
+										<a class="game-slide-content" href="#"><img alt="" src="/images/Games/Guns-N-Roses.jpg">
+										<div class="game-slide-details">
+											<h3>Guns N Roses</h3><span class="play-now-btn">Play Now</span>
+										</div></a>
+									</div>
+									<div class="game-slide">
+										<a class="game-slide-content" href="#"><img alt="" src="/images/Games/Evolution-Gaming.jpg">
+										<div class="game-slide-details">
+											<h3>Evolution Gaming</h3><span class="play-now-btn">Play Now</span>
+										</div></a>
+									</div>
+									<div class="game-slide">
+										<a class="game-slide-content" href="#"><img alt="" src="/images/Games/Sakura-Gaming.jpg">
+										<div class="game-slide-details">
+											<h3>Sakura Fortune</h3><span class="play-now-btn">Play Now</span>
+										</div></a>
+									</div>
+									<div class="game-slide">
+										<a class="game-slide-content" href="#"><img alt="" src="/images/Games/Phoenix-Sun.jpg">
+										<div class="game-slide-details">
+											<h3>Phoenix Sun</h3><span class="play-now-btn">Play Now</span>
+										</div></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div><!-- Suggested Games -->
+				<div class="row">
+					<div class="col-xs-10 col-xs-offset-1">
+						<div class="game-list suggested-games">
+							<h2>Suggested Games</h2>
+							<div class="row">
+								<div class="game-slide-container">
+									<div class="game-slide">
+										<a class="game-slide-content" href="#"><img alt="" src="/images/Games/Net-Ent-LIVE.jpg">
+										<div class="game-slide-details">
+											<h3>Net Ent Live</h3><span class="play-now-btn">Play Now</span>
+										</div></a>
+									</div>
+									<div class="game-slide">
+										<a class="game-slide-content" href="#"><img alt="" src="/images/Games/Phoenix-Sun.jpg">
+										<div class="game-slide-details">
+											<h3>Phoenix Sun</h3><span class="play-now-btn">Play Now</span>
+										</div></a>
+									</div>
+									<div class="game-slide">
+										<a class="game-slide-content" href="#"><img alt="" src="/images/Games/Starburst.jpg">
+										<div class="game-slide-details">
+											<h3>Starburst</h3><span class="play-now-btn">Play Now</span>
+										</div></a>
+									</div>
+									<div class="game-slide">
+										<a class="game-slide-content" href="#"><img alt="" src="/images/Games/Fairytale-Legends.jpg">
+										<div class="game-slide-details">
+											<h3>FairyTale Legends: Hansel &amp; Gretel</h3><span class="play-now-btn">Play Now</span>
+										</div></a>
+									</div>
+									<div class="game-slide">
+										<a class="game-slide-content" href="#"><img alt="" src="/images/Games/Guns-N-Roses.jpg">
+										<div class="game-slide-details">
+											<h3>Guns N Roses</h3><span class="play-now-btn">Play Now</span>
+										</div></a>
+									</div>
+									<div class="game-slide">
+										<a class="game-slide-content" href="#"><img alt="" src="/images/Games/Sakura-Gaming.jpg">
+										<div class="game-slide-details">
+											<h3>Sakura Fortune</h3><span class="play-now-btn">Play Now</span>
+										</div></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- Homepage CTA -->
+		<div class="container-fluid homepage-cta text-center">
+			<p><img alt="" src="/images/CTA%20-%20Benefits%20-%20Testimonials/Logo-Icon.png"> 100% Welcome Bonus, deposit €100 and play with €200! <a class="orange-btn" href="#">Sign Up Now</a></p>
+		</div><!-- Benefits and Testimonial Section -->
+		<div class="benefits-testimonial-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-lg-6 col-lg-offset-0 col-md-5 col-md-offset-1 col-sm-6 benefit-col bt-col">
+						<h2>Benefits</h2>
+						<p class="benefits-item">100% Secure Payments</p>
+						<p class="benefits-item">Instant withdrawals for VIP Players</p>
+						<p class="benefits-item">27 ways to deposit</p>
+						<p class="benefits-item">No fees on desposit and withdrawals</p>
+					</div>
+					<div class="col-xs-12 visible-xs payment-gateway-images mobile container-fluid text-center"><img alt="" src="/images/Payments/Paysafe-Logo.png"> <img alt="" src="/images/Payments/Visa.png"> <img alt="" src="/images/Payments/Skrill.png"> <img alt="" src="/images/Payments/Neteller.png"> <img alt="" src="/images/Payments/Mastercard.png"></div>
+					<div class="col-xs-12 col-lg-6 col-lg-offset-0 col-md-5 col-md-offset-1 col-sm-6 testimonial-col bt-col">
+						<div class="testimonial-inner">
+							<h2>Testimonial</h2>
+							<div class="testimonial-slides">
+								<div class="testimonial-slide">
+									<p>"This is by far my favourite casino! Very friendly customer support and great rewards!"</p>
+									<div class="testimonial-person">
+										<p class="t-name">Dave L.</p>
+										<p class="t-address">United Kingdom</p>
+									</div>
+								</div>
+								<div class="testimonial-slide">
+									<p>"Awesome Casino! So much fun to play!"</p>
+									<div class="testimonial-person">
+										<p class="t-name">Paul O.</p>
+										<p class="t-address">Philippines</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- Payment Gateway -->
+		<div class="payment-gateway-images hidden-xs container-fluid text-center"><img alt="" src="/images/Payments/Paysafe-Logo.png"> <img alt="" src="/images/Payments/Visa.png"> <img alt="" src="/images/Payments/Skrill.png"> <img alt="" src="/images/Payments/Neteller.png"> <img alt="" src="/images/Payments/Mastercard.png"></div><!-- Homepage Bottom Slider -->
+		<div class="homepage-bottom-slider-wrap">
+			<div class="container text-center">
+				<div class="row">
+					<div class="col-xs-10 col-xs-offset-1">
+						<button class="hbs-prev hbs-nav"><span class="ion-chevron-left"></span></button> <button class="hbs-next hbs-nav"><span class="ion-chevron-right"></span></button> <img alt="" class="cc-logo" src="/images/Winners/Logo-Icon.png">
+						<h2 class="top-winners">Top Winners</h2>
+						<div class="homepage-bottom-slider">
+							<div class="homepage-bottom-slide">
+								<div class="homepage-bottom-content">
+									<p class="winner-info"><img alt="" class="winner-nationality" src="/images/Counrty%20and%20Social/UK.png"> <span class="winner-name">Melanie K.</span>&nbsp; <span class="winner-cash">$15,981.13</span>&nbsp; <span class="winner-game">Jack and the Beanstalk</span></p>
+									<p class="homepage-bottom-link-wrap"><a class="orange-btn" href="">Play Now</a></p>
+								</div>
+							</div>
+							<div class="homepage-bottom-slide">
+								<div class="homepage-bottom-content">
+									<p class="winner-info"><img alt="" class="winner-nationality" src="/images/Counrty%20and%20Social/UK.png"> <span class="winner-name">Paul Simon O.</span>&nbsp; <span class="winner-cash">$12,875.19</span>&nbsp; <span class="winner-game">Sakura Fortune</span></p>
+									<p class="homepage-bottom-link-wrap"><a class="orange-btn" href="">Play Now</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div><!-- Footer -->
+	<div class="footer-lang-social">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<ul class="lang-links">
+						<li>
+							<a href="#"><img alt="" src="/images/Counrty%20and%20Social/UK.png"></a>
+						</li>
+						<li>
+							<a href="#"><img alt="" src="/images/Counrty%20and%20Social/Germany.png"></a>
+						</li>
+						<li>
+							<a href="#"><img alt="" src="/images/Counrty%20and%20Social/Swden.png"></a>
+						</li>
+						<li>
+							<a href="#"><img alt="" src="/images/Counrty%20and%20Social/Norway.png"></a>
+						</li>
+						<li>
+							<a href="#"><img alt="" src="/images/Counrty%20and%20Social/Finland.png"></a>
+						</li>
+					</ul><!-- footer Language Menu -->
+					<div class="footer-lang-drop dropdown">
+						<a aria-expanded="false" class="footer-lang-drop-toggle dropdown-toggle" data-toggle="dropdown" href="#" role="button"><img alt="..." id="footer-imgNavSel" src="/images/Counrty%20and%20Social/UK.png">&nbsp;&nbsp; <span id="footer-lanNavSel">United Kingdom</span> <span class="ion-chevron-down"></span></a>
+						<ul class="footer-lang-menu dropdown-menu" role="menu">
+							<li>
+								<a class="language" href="#" id="footer-navUK"><img alt="" id="footer-imgNavUK" src="/images/Counrty%20and%20Social/UK.png">&nbsp;&nbsp;<span id="footer-lanNavUK">United Kingdom</span></a>
+							</li>
+							<li>
+								<a class="language" href="#" id="footer-navDeu"><img alt="" id="footer-imgNavDeu" src="/images/Counrty%20and%20Social/Germany.png">&nbsp;&nbsp;<span id="footer-lanNavDeu">Deutsch</span></a>
+							</li>
+							<li>
+								<a class="language" href="#" id="footer-navSwed"><img alt="" id="footer-imgNavSwed" src="/images/Counrty%20and%20Social/Swden.png">&nbsp;&nbsp;<span id="footer-lanNavSwed">Swedish</span></a>
+							</li>
+							<li>
+								<a class="language" href="#" id="footer-navNorw"><img alt="" id="footer-imgNavNorw" src="/images/Counrty%20and%20Social/Norway.png">&nbsp;&nbsp;<span id="footer-lanNavNorw">Norwegian</span></a>
+							</li>
+							<li>
+								<a class="language" href="#" id="footer-navFin"><img alt="" id="footer-imgNavFin" src="/images/Counrty%20and%20Social/Finland.png">&nbsp;&nbsp;<span id="footer-lanNavFin">Finnish</span></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<ul class="social-links">
+						<li>
+							<a href="#"><img alt="" src="/images/Counrty%20and%20Social/Blog.png"></a>
+						</li>
+						<li>
+							<a href="#"><img alt="" src="/images/Counrty%20and%20Social/Facebook.png"></a>
+						</li>
+						<li>
+							<a href="#"><img alt="" src="/images/Counrty%20and%20Social/Youtube.png"></a>
+						</li>
+						<li>
+							<a href="#"><img alt="" src="/images/Counrty%20and%20Social/Twitter.png"></a>
+						</li>
+						<li>
+							<a href="#"><img alt="" src="/images/Counrty%20and%20Social/Instagram.png"></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer id="footer">
+		<!-- Authority List -->
+		<div class="container authority-list">
+			<div class="row authority-item">
+				<div class="col-lg-2 col-lg-offset-2 col-sm-3 col-xs-10 col-xs-offset-1">
+					<div class="authority-img"><img alt="" class="img-responsive" src="/images/Counrty%20and%20Social/Gambling-Comm.png"></div>
+				</div>
+				<div class="col-lg-6 col-sm-7 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+					<div class="authority-details">
+						<p>Casino company registration nuber C 12345, with registered address at Address, Malta, licensed to operate remote 
+							during business by the Malta Gaming Authority under the following licenses: MGA/CLX/123/2017 issued in the 1st January 2017.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="row authority-item">
+				<div class="col-lg-2 col-lg-offset-2 col-sm-3 col-xs-10 col-xs-offset-1">
+					<div class="authority-img"><img alt="" class="img-responsive" src="/images/Counrty%20and%20Social/MGA-logo.png"></div>
+				</div>
+				<div class="col-lg-6 col-sm-7 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+					<div class="authority-details">
+						<p>Casino is also licensed and regulated in the United Kingdom by the UK Gambling Commission under License Number 
+							000-12345-R-654321. Games provided by IGT (Alderney 4) Limited and by Network (Malta) are licensed and regulated by the Alderney Gambling Control COmmission (AGCC). 
+							Gambling can be addictive. Play responsibly. 
+						</p>
+					</div>
+				</div>
+			</div>
+		</div><!-- Footer Navigation -->
+		<div class="container footer-navigation text-center">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2 col-xs-12">
+					<nav>
+						<ul>
+							<li>
+								<a href="#">Payment Options</a>
+							</li>
+							<li>
+								<a href="#">Terms and Conditions</a>
+							</li>
+							<li>
+								<a href="#">Privacy and Policy</a>
+							</li>
+							<li>
+								<a href="#">Security</a>
+							</li>
+							<li>
+								<a href="#">Affiliates</a>
+							</li>
+							<li>
+								<a href="#">About Us</a>
+							</li>
+							<li>
+								<a href="#">Careers</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<div class="container footer-logos text-center">
+			<div class="footer-logos-list"><img alt="" src="/images/Counrty%20and%20Social/Ecogra.png"> <img alt="" src="/images/Counrty%20and%20Social/Gamcare.png"> <img alt="" src="/images/Counrty%20and%20Social/gamble-care.png"> <img alt="" src="/images/Counrty%20and%20Social/18+.png"></div>
+		</div>
+		<p class="text-center copyright-text">Copyright 2017. Casino. All rights reserved</p>
+	</footer><!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+	</script> <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+	</script>
+	<script charset="utf-8" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js">
+	</script>
+	<script charset="utf-8" src="/js/script.js">
+	</script>
+</body>
+</html>
