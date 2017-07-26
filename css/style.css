@@ -570,10 +570,6 @@ header {
 .game-list.suggested-games{
 	margin-bottom: 0;
 }
-.game-list .row {
-	margin-left: -5px;
-	margin-right: -5px;
-}
 .game-list .slick-dots li button:before {
 	font-size: 12px;
 }
@@ -589,8 +585,7 @@ header {
 	display: none;
 }
 .game-slide {
-	padding: 5px;
-	padding-top: 0;
+	padding: 0;
 }
 .game-slide-content {
 	display: block;
@@ -1079,13 +1074,8 @@ footer {
 		width: auto;
 	}
 	/* Game List ================================================== */
-	.game-list .row {
-		margin-left: -15px;
-		margin-right: -15px;
-	}
 	.game-slide {
-		padding: 15px;
-		padding-top: 0;
+		padding: 0;
 	}
 	.game-slide-container .slick-prev {
 		left: -5%;
