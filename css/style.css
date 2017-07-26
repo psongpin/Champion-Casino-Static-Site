@@ -491,9 +491,9 @@ header {
 	z-index: 1;
 	border: 200px solid #1f3f7b;
 	opacity: .8;
-	-webkit-transition: all .4s ease-out;
-	-o-transition: all .4s ease-out;
-	transition: all .4s ease-out;
+	-webkit-transition: all .2s ease-out;
+	-o-transition: all .2s ease-out;
+	transition: all .2s ease-out;
 }
 .lobby-navigation .lobby-navigation-item:hover:before, .lobby-navigation .lobby-navigation-item:focus:before {
 	border-width: 8px;
