@@ -496,7 +496,7 @@ header {
 	transition: all .4s ease-out;
 }
 .lobby-navigation .lobby-navigation-item:hover:before, .lobby-navigation .lobby-navigation-item:focus:before {
-	border-width: 15px;
+	border-width: 8px;
 }
 .lobby-navigation .lobby-navigation-item-content {
 	position: absolute;
@@ -1314,7 +1314,7 @@ footer {
 	}
 	/* Lobby Navigation ============================= */
 	.lobby-navigation .lobby-navigation-item {
-		height: 175px;
+		height: 150px;
 	}
 	.lobby-navigation .lobby-navigation-item-content span {
 		font-size: 20px;
