@@ -60,7 +60,7 @@ header {
 }
 .header-login-form-wrap {
 	display: none;
-	margin-top: 45px;
+	margin-top: 25px;
 }
 .header-login-form .input {
 	float: left;
@@ -219,7 +219,7 @@ header {
 	text-decoration: none !important;
 	padding: 0 1em;
 	display: inline-block;
-	line-height: 3.7em;
+	line-height: 3.25em;
 	letter-spacing: 1px;
 }
 .lang-drop-toggle:hover, .lang-drop-toggle:focus {
@@ -339,7 +339,7 @@ header {
 	overflow: hidden;
 }
 .homepage-main-slider .homepage-main-slider-parent {
-	height: 400px;
+	height: 375px;
 	position: relative;
 	display: none;
 	margin-bottom: 0;
@@ -1157,7 +1157,7 @@ footer {
 		float: left;
 	}
 	.header-logo img {
-		width: auto;
+		width: 160px;
 		max-width: initial;
 	}
 	.header-login-form .input input {
@@ -1190,7 +1190,7 @@ footer {
 	.header-bottom {
 		margin-top: 0;
 		padding-bottom: 0;
-		padding-top: 20px;
+		padding-top: 15px;
 		position: static;
 	}
 	.mobile-menu-toggle {
@@ -1285,11 +1285,11 @@ footer {
 		float: right;
 	}
 	.primary-menu .navbar-nav>li>a {
-		line-height: 3.7em;
+		line-height: 3.25em;
 		padding: 0 1em;
 	}
 	.help-link a {
-		line-height: 3.7em;
+		line-height: 3.25em;
 	}
 	/* Homepage Main Slider =========================== */
 	.homepage-main-slider .homepage-main-slider-slide:before {
