@@ -143,7 +143,7 @@ header {
 	display: none;
 }
 .primary-menu .navbar-nav>li>a {
-	font-size: 16px;
+	font-size: 14px;
 	color: #fff;
 	display: inline-block;
 	letter-spacing: 1px
@@ -198,7 +198,7 @@ header {
 }
 .help-link a {
 	color: #fff !important;
-	font-size: 16px;
+	font-size: 14px;
 	display: inline-block;
 	letter-spacing: 1px;
 	text-decoration: none !important;
@@ -214,7 +214,7 @@ header {
 	display: none;
 }
 .lang-drop-toggle {
-	font-size: 16px;
+	font-size: 14px;
 	color: #fff !important;
 	text-decoration: none !important;
 	padding: 0 1em;
@@ -339,7 +339,7 @@ header {
 	overflow: hidden;
 }
 .homepage-main-slider .homepage-main-slider-parent {
-	height: 375px;
+	height: 370px;
 	position: relative;
 	display: none;
 	margin-bottom: 0;
@@ -1190,7 +1190,7 @@ footer {
 	.header-bottom {
 		margin-top: 0;
 		padding-bottom: 0;
-		padding-top: 15px;
+		padding-top: 10px;
 		position: static;
 	}
 	.mobile-menu-toggle {
@@ -1296,10 +1296,10 @@ footer {
 		width: 75%;
 	}
 	.homepage-main-slider .contents h2 {
-		font-size: 50px;
+		font-size: 45px;
 	}
 	.homepage-main-slider .contents p {
-		font-size: 25px;
+		font-size: 24px;
 	}
 	.hms-nav, .hbs-nav {
 		font-size: 40px;
@@ -1309,7 +1309,7 @@ footer {
 		height: 150px;
 	}
 	.lobby-navigation .lobby-navigation-item-content span {
-		font-size: 20px;
+		font-size: 18px;
 	}
 	.lobby-navigation .lobby-navigation-item-content img {
 		width: auto;
