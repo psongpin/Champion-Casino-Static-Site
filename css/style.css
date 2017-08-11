@@ -114,6 +114,47 @@ header {
 	color: #fff !important;
 }
 
+/* Header Sign in Links */
+.header-signin-links {
+    float: right;
+	margin-top: 35px;
+	display: none;
+}
+.header-login {
+	background: transparent;
+	border: 1px solid #fff;
+	color: #fff;
+	border-radius: 5px;
+	padding: 0 1em;
+	line-height: 40px;
+	outline: 0;
+	margin-right: 20px;
+	font-weight: 600;
+	display: inline-block;
+	text-decoration: none !important;
+}
+.header-login:hover, .header-login:focus {
+	background-color: #fff;
+	color: #1f3f7b;
+}
+.header-login-signup {
+	background: #e7893e;
+	border: 1px solid #e7893e;
+	color: #fff;
+	border-radius: 5px;
+	padding: 0 1em;
+	line-height: 40px;
+	outline: 0;
+	display: inline-block;
+	text-decoration: none !important;
+	font-weight: 600;
+}
+.header-login-signup:hover, .header-login-signup:focus {
+	background-color: #BD5727;
+	border-color: #BD5727;
+	color: #fff;
+}
+
 /* Header Bottom */
 
 .header-bottom {
@@ -1186,6 +1227,10 @@ footer {
 	}
 	.mobile-login-links {
 		display: none;
+	}
+	/* Header Sign in Links */
+	.header-signin-links {
+		display: block;
 	}
 	.header-bottom {
 		margin-top: 0;
