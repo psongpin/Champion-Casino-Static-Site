@@ -1157,7 +1157,7 @@ footer {
 		float: left;
 	}
 	.header-logo img {
-		width: 160px;
+		/* width: 150px; */
 		max-width: initial;
 	}
 	.header-login-form .input input {
@@ -1190,7 +1190,7 @@ footer {
 	.header-bottom {
 		margin-top: 0;
 		padding-bottom: 0;
-		padding-top: 10px;
+		padding-top: 0px;
 		position: static;
 	}
 	.mobile-menu-toggle {
