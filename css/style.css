@@ -380,7 +380,7 @@ header {
 	overflow: hidden;
 }
 .homepage-main-slider .homepage-main-slider-parent {
-	height: 370px;
+	height: 400px;
 	position: relative;
 	display: none;
 	margin-bottom: 0;
@@ -1098,11 +1098,10 @@ footer {
 	.homepage-main-slider .contents {
 		text-align: center;
 	}
-	.homepage-main-slider .contents h2 {
+	/* .homepage-main-slider .contents h2 {
 		font-size: 35px;
-	}
+	} */
 	.homepage-main-slider .contents p {
-		font-size: 20px;
 		width: 100%;
 	}
 	.hms-nav {
@@ -1340,18 +1339,12 @@ footer {
 	.homepage-main-slider .homepage-main-slider-slide:before {
 		width: 75%;
 	}
-	.homepage-main-slider .contents h2 {
-		font-size: 45px;
-	}
-	.homepage-main-slider .contents p {
-		font-size: 24px;
-	}
 	.hms-nav, .hbs-nav {
 		font-size: 40px;
 	}
 	/* Lobby Navigation ============================= */
 	.lobby-navigation .lobby-navigation-item {
-		height: 150px;
+		height: 130px;
 	}
 	.lobby-navigation .lobby-navigation-item-content span {
 		font-size: 18px;
@@ -1394,5 +1387,17 @@ footer {
 	/* Footer Styles ================================== */
 	.footer-lang-social ul li {
 		margin: 0 25px;
+	}
+}
+
+/* Custom media queries ================================================= */
+
+/* Target: laptops */
+@media (max-width: 1300px) {
+	.homepage-main-slider .homepage-main-slider-parent {
+		height: 325px;
+	}
+	.homepage-main-slider .homepage-main-slider-slide {
+		height: 325px;
 	}
 }
