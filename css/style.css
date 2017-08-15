@@ -50,7 +50,7 @@ header {
 /* Header top */
 
 .header-top {
-	padding: 20px 0;
+	padding: 15px 0;
 }
 .header-logo {
 	text-align: center;
@@ -60,7 +60,7 @@ header {
 }
 .header-login-form-wrap {
 	display: none;
-	margin-top: 45px;
+	margin-top: 25px;
 }
 .header-login-form .input {
 	float: left;
@@ -114,6 +114,47 @@ header {
 	color: #fff !important;
 }
 
+/* Header Sign in Links */
+.header-signin-links {
+    float: right;
+	margin-top: 35px;
+	display: none;
+}
+.header-login {
+	background: transparent;
+	border: 1px solid #fff;
+	color: #fff;
+	border-radius: 5px;
+	padding: 0 1em;
+	line-height: 40px;
+	outline: 0;
+	margin-right: 20px;
+	font-weight: 600;
+	display: inline-block;
+	text-decoration: none !important;
+}
+.header-login:hover, .header-login:focus {
+	background-color: #fff;
+	color: #1f3f7b;
+}
+.header-login-signup {
+	background: #e7893e;
+	border: 1px solid #e7893e;
+	color: #fff;
+	border-radius: 5px;
+	padding: 0 1em;
+	line-height: 40px;
+	outline: 0;
+	display: inline-block;
+	text-decoration: none !important;
+	font-weight: 600;
+}
+.header-login-signup:hover, .header-login-signup:focus {
+	background-color: #BD5727;
+	border-color: #BD5727;
+	color: #fff;
+}
+
 /* Header Bottom */
 
 .header-bottom {
@@ -143,7 +184,7 @@ header {
 	display: none;
 }
 .primary-menu .navbar-nav>li>a {
-	font-size: 16px;
+	font-size: 14px;
 	color: #fff;
 	display: inline-block;
 	letter-spacing: 1px
@@ -214,12 +255,12 @@ header {
 	display: none;
 }
 .lang-drop-toggle {
-	font-size: 16px;
+	font-size: 14px;
 	color: #fff !important;
 	text-decoration: none !important;
 	padding: 0 1em;
 	display: inline-block;
-	line-height: 3.7em;
+	line-height: 3.25em;
 	letter-spacing: 1px;
 }
 .lang-drop-toggle:hover, .lang-drop-toggle:focus {
@@ -330,6 +371,33 @@ header {
 .mobile-menu li a {
 	color: #fff !important;
 	background: none !important;
+}
+
+.mobile-menu li:nth-child(1) a:before {
+    background-image: url('../images/Navigation/Home.png');
+}
+.mobile-menu li:nth-child(2) a:before {
+    background-image: url('../images/Navigation/Casino.png');
+}
+.mobile-menu li:nth-child(3) a:before {
+    background-image: url('../images/Navigation/Tournaments.png');
+}
+.mobile-menu li:nth-child(4) a:before {
+    background-image: url('../images/Navigation/Promotions.png');
+}
+.mobile-menu li:nth-child(5) a:before {
+    background-image: url('../images/Navigation/Vip.png');
+}
+.mobile-menu li:nth-child(6) a:before {
+    background-image: url('../images/Navigation/Getting-Started.png');
+}
+.mobile-menu li a:before {
+    content: "";
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin-right: 7px;
+    vertical-align: -5px;
 }
 
 /* Homepage Slider ====================================================== */
@@ -685,8 +753,8 @@ header {
 /* Homepage CTA =================================================== */
 
 .homepage-cta {
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	background: #003B7F;
 }
 .homepage-cta p {
@@ -717,6 +785,7 @@ header {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 15px;
+	width: 40px;
 }
 .homepage-cta p a {
 	margin-left: auto;
@@ -821,8 +890,8 @@ header {
 /* Payment gateway */
 
 .payment-gateway-images {
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	background: #003B7F;
 }
 .payment-gateway-images img {
@@ -1057,11 +1126,10 @@ footer {
 	.homepage-main-slider .contents {
 		text-align: center;
 	}
-	.homepage-main-slider .contents h2 {
+	/* .homepage-main-slider .contents h2 {
 		font-size: 35px;
-	}
+	} */
 	.homepage-main-slider .contents p {
-		font-size: 20px;
 		width: 100%;
 	}
 	.hms-nav {
@@ -1101,8 +1169,8 @@ footer {
 		font-size: 18px;
 	}
 	.payment-gateway-images img {
-		max-width: 140px;
-		height: auto;
+		max-width: initial;
+		height: 35px;
 	}
 	.benefits-testimonial-section:before {
 		display: block;
@@ -1157,7 +1225,7 @@ footer {
 		float: left;
 	}
 	.header-logo img {
-		width: auto;
+		/* width: 150px; */
 		max-width: initial;
 	}
 	.header-login-form .input input {
@@ -1179,6 +1247,7 @@ footer {
 	}
 	.help-link a {
 		line-height: 3em;
+		font-size: 14px;
 		border: 0;
 		font-weight: 400;
 		border-radius: 0;
@@ -1187,10 +1256,14 @@ footer {
 	.mobile-login-links {
 		display: none;
 	}
+	/* Header Sign in Links */
+	.header-signin-links {
+		display: block;
+	}
 	.header-bottom {
 		margin-top: 0;
 		padding-bottom: 0;
-		padding-top: 20px;
+		padding-top: 0px;
 		position: static;
 	}
 	.mobile-menu-toggle {
@@ -1237,9 +1310,9 @@ footer {
 	.testimonial-person p {
 		font-size: 20px;
 	}
-	.payment-gateway-images img {
+	/* .payment-gateway-images img {
 		max-width: initial;
-	}
+	} */
 	/* Homepage bottom slider =============================== */
 	.cc-logo {
 		width: 45px;
@@ -1285,31 +1358,25 @@ footer {
 		float: right;
 	}
 	.primary-menu .navbar-nav>li>a {
-		line-height: 3.7em;
+		line-height: 3.25em;
 		padding: 0 1em;
 	}
 	.help-link a {
-		line-height: 3.7em;
+		line-height: 3.25em;
 	}
 	/* Homepage Main Slider =========================== */
 	.homepage-main-slider .homepage-main-slider-slide:before {
 		width: 75%;
-	}
-	.homepage-main-slider .contents h2 {
-		font-size: 50px;
-	}
-	.homepage-main-slider .contents p {
-		font-size: 25px;
 	}
 	.hms-nav, .hbs-nav {
 		font-size: 40px;
 	}
 	/* Lobby Navigation ============================= */
 	.lobby-navigation .lobby-navigation-item {
-		height: 150px;
+		height: 130px;
 	}
 	.lobby-navigation .lobby-navigation-item-content span {
-		font-size: 20px;
+		font-size: 18px;
 	}
 	.lobby-navigation .lobby-navigation-item-content img {
 		width: auto;
@@ -1322,9 +1389,9 @@ footer {
 		font-size: 40px;
 	}
 	/* Homepage CTA =============================== */
-	.homepage-cta p {
+	/* .homepage-cta p {
 		font-size: 25px;
-	}
+	} */
 	/* Benefits and Testimonial =============================== */
 	.benefits-testimonial-section h2 {
 		font-weight: 600;
@@ -1341,7 +1408,7 @@ footer {
 		font-size: 28px;
 	}
 	.homepage-bottom-slider-wrap .winner-info {
-		font-size: 45px;
+		font-size: 35px;
 	}
 	.hbs-nav {
 		font-size: 40px;
@@ -1349,5 +1416,17 @@ footer {
 	/* Footer Styles ================================== */
 	.footer-lang-social ul li {
 		margin: 0 25px;
+	}
+}
+
+/* Custom media queries ================================================= */
+
+/* Target: laptops */
+@media (max-width: 1300px) {
+	.homepage-main-slider .homepage-main-slider-parent {
+		height: 325px;
+	}
+	.homepage-main-slider .homepage-main-slider-slide {
+		height: 325px;
 	}
 }
