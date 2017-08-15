@@ -538,7 +538,8 @@ header {
 
 
 /* Lobby Navigation =========================== */
-
+.lobby-navigation.desktop{ display: none; }
+.lobby-navigation.mobile{ display: block; }
 .lobby-navigation .lobby-navigation-item {
 	width: 12.5%;
 	float: left;
@@ -1287,6 +1288,8 @@ footer {
 		font-size: 35px;
 	}
 	/* Lobby Navigation ============================= */
+	.lobby-navigation.desktop{ display: block; }
+	.lobby-navigation.mobile{ display: none; }
 	.lobby-navigation .lobby-navigation-item-content span {
 		font-size: 16px;
 	}

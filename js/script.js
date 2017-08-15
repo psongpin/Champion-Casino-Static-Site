@@ -17,13 +17,22 @@ $(document).ready(function(){
   $('.hms-next').click(function(){ $('.homepage-main-slider-parent').slick('slickNext'); });
 
   // Lobby Navigation =================================================
-  $('.lobby-navigation').slick({
+  $('.lobby-navigation.desktop').slick({
     arrows: false,
     infinite: true,
     slidesToShow: 8,
     responsive: [
       { breakpoint: 991, settings: { slidesToShow: 5, slidesToScroll: 5, initialSlide: 8, arrows: true } },
       { breakpoint: 767, settings: { slidesToShow: 3, slidesToScroll: 3, initialSlide: 8, arrows: true } }
+    ]
+  });
+  $('.lobby-navigation.mobile').slick({
+    arrows: false,
+    infinite: true,
+    slidesToShow: 8,
+    responsive: [
+      { breakpoint: 991, settings: { slidesToShow: 5, slidesToScroll: 5, arrows: true } },
+      { breakpoint: 767, settings: { slidesToShow: 3, slidesToScroll: 3, arrows: true } }
     ]
   });
 
