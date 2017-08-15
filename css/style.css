@@ -753,8 +753,8 @@ header {
 /* Homepage CTA =================================================== */
 
 .homepage-cta {
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	background: #003B7F;
 }
 .homepage-cta p {
@@ -785,6 +785,7 @@ header {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 15px;
+	width: 40px;
 }
 .homepage-cta p a {
 	margin-left: auto;
@@ -889,8 +890,8 @@ header {
 /* Payment gateway */
 
 .payment-gateway-images {
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	background: #003B7F;
 }
 .payment-gateway-images img {
@@ -1168,8 +1169,8 @@ footer {
 		font-size: 18px;
 	}
 	.payment-gateway-images img {
-		max-width: 140px;
-		height: auto;
+		max-width: initial;
+		height: 35px;
 	}
 	.benefits-testimonial-section:before {
 		display: block;
@@ -1309,9 +1310,9 @@ footer {
 	.testimonial-person p {
 		font-size: 20px;
 	}
-	.payment-gateway-images img {
+	/* .payment-gateway-images img {
 		max-width: initial;
-	}
+	} */
 	/* Homepage bottom slider =============================== */
 	.cc-logo {
 		width: 45px;
@@ -1388,9 +1389,9 @@ footer {
 		font-size: 40px;
 	}
 	/* Homepage CTA =============================== */
-	.homepage-cta p {
+	/* .homepage-cta p {
 		font-size: 25px;
-	}
+	} */
 	/* Benefits and Testimonial =============================== */
 	.benefits-testimonial-section h2 {
 		font-weight: 600;
