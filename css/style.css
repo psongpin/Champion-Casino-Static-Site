@@ -981,7 +981,7 @@ header {
 	margin: 0;
 }
 .footer-lang-social ul li {
-	display: inline;
+	display: inline-block;
 	margin: 0 10px;
 }
 .footer-lang-social ul li:first-child {
@@ -995,10 +995,26 @@ header {
 	-webkit-transition: all .4s ease-out;
 	-o-transition: all .4s ease-out;
 	transition: all .4s ease-out;
+	display: none;
 }
 .footer-lang-social ul li img:hover {
 	transform: scale(1.2);
     opacity: 0.7;
+}
+.circle-logos:hover {
+    box-shadow: 0px 0px 0px 2px #fff;
+}
+.circle-logos {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #fff;
+    background-size: 34px;
+    background-position: center;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	transition: all .2s ease-in-out;
 }
 
 /* ===================================== */
@@ -1338,6 +1354,11 @@ footer {
 	}
 	.footer-lang-social ul li img {
 		width: auto;
+	}
+	.circle-logos {
+		width: 44px;
+		height: 44px;
+		background-size: 49px;		
 	}
 }
 
