@@ -23,17 +23,17 @@ body {
 	font-family: 'Source Sans Pro', sans-serif;
 }
 a {
-	-webkit-transition: all .3s ease-out;
-	-o-transition: all .3s ease-out;
-	transition: all .3s ease-out;
+	-webkit-transition: all .2s ease-out;
+	-o-transition: all .2s ease-out;
+	transition: all .2s ease-out;
 }
 input {
 	font-size: 14px;
 }
 button {
-	-webkit-transition: all .3s ease-out;
-	-o-transition: all .3s ease-out;
-	transition: all .3s ease-out;
+	-webkit-transition: all .2s ease-out;
+	-o-transition: all .2s ease-out;
+	transition: all .2s ease-out;
 }
 .slick-next, .slick-prev {
 	width: auto;
@@ -359,9 +359,9 @@ header {
 	-webkit-transform: translateX(-100%);
 	-ms-transform: translateX(-100%);
 	transform: translateX(-100%);
-	-webkit-transition: all .4s ease-out;
-	-o-transition: all .4s ease-out;
-	transition: all .4s ease-out;
+	-webkit-transition: all .2s ease-out;
+	-o-transition: all .2s ease-out;
+	transition: all .2s ease-out;
 }
 .mobile-menu.open {
 	-webkit-transform: translateX(0%);
@@ -687,9 +687,9 @@ header {
 	align-items: center;
 	text-align: center;
 	background: rgba(0, 0, 0, 0.5);
-	-webkit-transition: all .15s ease-out;
-	-o-transition: all .15s ease-out;
-	transition: all .15s ease-out;
+	-webkit-transition: all .2s ease-out;
+	-o-transition: all .2s ease-out;
+	transition: all .2s ease-out;
 	padding: 0 5px;
 }
 .game-slide-details h3 {
@@ -717,9 +717,9 @@ header {
 	text-decoration: none !important;
 	font-weight: 600;
 	font-size: 18px;
-	-webkit-transition: all .3s ease-out;
-	-o-transition: all .3s ease-out;
-	transition: all .3s ease-out;
+	-webkit-transition: all .2s ease-out;
+	-o-transition: all .2s ease-out;
+	transition: all .2s ease-out;
 	position: absolute;
 	left: 0;
 	right: 0;
@@ -992,17 +992,20 @@ header {
 }
 .footer-lang-social ul li img {
 	width: 30px;
-	-webkit-transition: all .4s ease-out;
-	-o-transition: all .4s ease-out;
-	transition: all .4s ease-out;
+	-webkit-transition: all .2s ease-out;
+	-o-transition: all .2s ease-out;
+	transition: all .2s ease-out;
 	display: none;
 }
 .footer-lang-social ul li img:hover {
-	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	    -ms-transform: scale(1.2);
+	        transform: scale(1.2);
     opacity: 0.7;
 }
 .circle-logos:hover {
-    box-shadow: 0px 0px 0px 2px #fff;
+    -webkit-box-shadow: 0px 0px 0px 2px #fff;
+            box-shadow: 0px 0px 0px 2px #fff;
 }
 .circle-logos {
     width: 30px;
@@ -1014,6 +1017,8 @@ header {
     background-position: center;
 	background-repeat: no-repeat;
 	overflow: hidden;
+	-webkit-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
 	transition: all .2s ease-in-out;
 }
 
