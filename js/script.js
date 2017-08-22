@@ -11,7 +11,8 @@ $(document).ready(function(){
       infinite: true,
       autoplay: true,
       cssEase: 'linear',
-      dots: true
+      dots: true,
+      speed: 200
     });
   $('.hms-prev').click(function(){ $('.homepage-main-slider-parent').slick('slickPrev'); });
   $('.hms-next').click(function(){ $('.homepage-main-slider-parent').slick('slickNext'); });
@@ -20,6 +21,7 @@ $(document).ready(function(){
   $('.lobby-navigation.desktop').slick({
     arrows: false,
     infinite: true,
+    speed: 200,
     slidesToShow: 8,
     responsive: [
       { breakpoint: 991, settings: { slidesToShow: 5, slidesToScroll: 5, initialSlide: 8, arrows: true } },
@@ -29,6 +31,7 @@ $(document).ready(function(){
   $('.lobby-navigation.mobile').slick({
     arrows: false,
     infinite: true,
+    speed: 200,
     slidesToShow: 8,
     responsive: [
       { breakpoint: 991, settings: { slidesToShow: 5, slidesToScroll: 5, arrows: true } },
@@ -44,6 +47,7 @@ $(document).ready(function(){
     .slick({
       dots: true,
       arrows: true,
+      speed: 200,
       infinite: true,
       slidesToShow: 5,
       slidesToScroll: 5,
@@ -58,6 +62,7 @@ $(document).ready(function(){
   $('.testimonial-slides').slick({
     arrows: false,
     infinite: true,
+    speed: 200,
     autoplay: true,
     fade: true,
     cssEase: 'linear'
@@ -67,6 +72,7 @@ $(document).ready(function(){
   $('.homepage-bottom-slider').slick({
     arrows: false,
     infinite: true,
+    speed: 200,
     autoplay: true,
     fade: true,
     cssEase: 'linear'
