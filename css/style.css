@@ -50,7 +50,7 @@ header {
 /* Header top */
 
 .header-top {
-	padding: 15px 0;
+	padding: 5px 0;
 }
 .header-logo {
 	text-align: center;
@@ -125,7 +125,7 @@ header {
 	border: 1px solid #fff;
 	color: #fff;
 	border-radius: 5px;
-	padding: 0 1em;
+	padding: 0 2em;
 	line-height: 40px;
 	outline: 0;
 	margin-right: 20px;
@@ -142,7 +142,7 @@ header {
 	border: 1px solid #e7893e;
 	color: #fff;
 	border-radius: 5px;
-	padding: 0 1em;
+	padding: 0 2.5em;
 	line-height: 40px;
 	outline: 0;
 	display: inline-block;
@@ -407,7 +407,7 @@ header {
 	overflow: hidden;
 }
 .homepage-main-slider .homepage-main-slider-parent {
-	height: 400px;
+	height: 300px;
 	position: relative;
 	display: none;
 	margin-bottom: 0;
@@ -420,7 +420,7 @@ header {
 	color: #fff;
 }
 .homepage-main-slider .homepage-main-slider-slide {
-	height: 400px;
+	height: 300px;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1157,7 +1157,7 @@ footer {
 	}
 	/* Lobby Navigation ============================= */
 	.lobby-navigation .lobby-navigation-item {
-		height: 120px;
+		height: 100px;
 	}
 	.lobby-navigation .lobby-navigation-item-content img {
 		width: auto;
@@ -1285,6 +1285,7 @@ footer {
 		padding-bottom: 0;
 		padding-top: 0px;
 		position: static;
+		border-top: 1px solid #053163;
 	}
 	.mobile-menu-toggle {
 		display: none;
@@ -1398,7 +1399,7 @@ footer {
 	}
 	/* Lobby Navigation ============================= */
 	.lobby-navigation .lobby-navigation-item {
-		height: 130px;
+		height: 110px;
 	}
 	.lobby-navigation .lobby-navigation-item-content span {
 		font-size: 18px;
