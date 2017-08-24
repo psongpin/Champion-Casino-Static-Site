@@ -52,11 +52,12 @@ header {
 .header-top {
 	padding: 5px 0;
 }
+.header-top .container { position: relative; }
 .header-logo {
 	text-align: center;
 }
 .header-logo img {
-	width: 140px;
+	width: 55px;;
 }
 .header-login-form-wrap {
 	display: none;
@@ -116,8 +117,12 @@ header {
 
 /* Header Sign in Links */
 .header-signin-links {
-    float: right;
-	margin-top: 35px;
+    /* float: right;
+	margin-top: 35px; */
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
 	display: none;
 }
 .header-login {
@@ -1242,7 +1247,7 @@ footer {
 	}
 	/* header ========================================= */
 	.header-logo {
-		float: left;
+		/* float: left; */
 	}
 	.header-logo img {
 		/* width: 150px; */
